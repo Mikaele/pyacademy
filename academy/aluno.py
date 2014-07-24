@@ -5,7 +5,7 @@ from academy.pessoa import Pessoa
 
 class Aluno(Pessoa):
 
-    ID = 1
+    _ID = 1
 
     def __init__(self, nome, nascimento):
         Pessoa.__init__(self, nome, nascimento, "aluno")
