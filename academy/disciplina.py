@@ -1,5 +1,7 @@
 #coding: utf-8
 
+from academy.aluno import Aluno
+
 class Disciplina(object):
     _ID = 1
     limite_sala = 60
@@ -14,6 +16,8 @@ class Disciplina(object):
         self.docente = []
         self.vagas = Disciplina.limite_sala
         self._alunos = {}
+        self.nota_1 = 0
+        self.nota_2 = 0
 
     @property
     def vagas(self):

@@ -1,6 +1,6 @@
 #coding: utf-8
 from datetime import date, datetime
-from dateutil.relativedelta import relativedelta
+'''from dateutil.relativedelta import relativedelta'''
 
 class Semestre(object):
 

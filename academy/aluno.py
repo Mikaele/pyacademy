@@ -1,6 +1,7 @@
 #coding: utf-8
 
-from pessoa import Pessoa
+
+from academy.pessoa import Pessoa
 
 class Aluno(Pessoa):
 
